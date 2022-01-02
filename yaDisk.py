@@ -33,7 +33,7 @@ class YandexDisk:
 
 
 if __name__ == '__main__':
-    token = 'AQAAAABWi4DbAADLWwJEC_FsskELoEpXsGkqgVg'
+    token = ''
     ya = YandexDisk(token=token)
     ya.upload_file_to_disk("/netology/222.txt")
 
